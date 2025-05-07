@@ -9,10 +9,10 @@ function Section3Page() {
     <div>
       <h2>BenchSmart Page</h2>
       <p>Content for the BenchSmart page.</p>
-      <button onClick={() => handleButtonClick('Button 1')}>Button 1</button>
-      <button onClick={() => handleButtonClick('Button 2')}>Button 2</button>
-      <button onClick={() => handleButtonClick('Button 3')}>Button 3</button>
-      <button onClick={() => handleButtonClick('Button 4')}>Button 4</button>
+      <button className="my-button" onClick={() => handleButtonClick('Button 1')}>Southern</button>
+      <button className="my-button" onClick={() => handleButtonClick('Button 2')}>Eastern</button>
+      <button className="my-button" onClick={() => handleButtonClick('Button 3')}>Wales & Western</button>
+      <button className="my-button" onClick={() => handleButtonClick('Button 4')}>North Western & Central</button>
     </div>
   );
 }

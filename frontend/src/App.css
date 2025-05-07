@@ -80,3 +80,20 @@
 .page-container {
   padding: 20px;
 }
+
+/* CSS for styling buttons */
+.my-button {
+  padding: 10px 20px;
+  border: 1px solid #007bff; /* Example border color */
+  background-color: #007bff; /* Example background color */
+  color: white; /* Example text color */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.my-button:hover {
+  background-color: #0056b3; /* Darker background on hover */
+  border-color: #004085; /* Darker border on hover */
+}
